@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 760" role="img" aria-labelledby="title desc">
+<title id="title">Brownies artesanais</title><desc id="desc">Ilustração de brownies de chocolate sobre um prato claro, com detalhes rosados.</desc>
+<defs>
+ <linearGradient id="plate" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fffdfb"/><stop offset="1" stop-color="#eadbd1"/></linearGradient>
+ <linearGradient id="top" x1="0" y1="0" x2=".2" y2="1"><stop stop-color="#9b5032"/><stop offset=".42" stop-color="#6b2f20"/><stop offset="1" stop-color="#3b1914"/></linearGradient>
+ <linearGradient id="side" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#54251a"/><stop offset="1" stop-color="#24100d"/></linearGradient>
+ <linearGradient id="shine" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f0a276"/><stop offset="1" stop-color="#a94c2e"/></linearGradient>
+ <filter id="shadow" x="-30%" y="-40%" width="170%" height="190%"><feGaussianBlur stdDeviation="18"/></filter>
+ <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency=".8" numOctaves="2" seed="12"/><feColorMatrix values=".5 0 0 0 .16 .2 .2 0 0 .07 .1 0 .1 0 .03 0 0 0 .18 0"/></filter>
+</defs>
+<circle cx="510" cy="365" r="330" fill="#f4dce1" opacity=".65"/>
+<circle cx="510" cy="365" r="292" fill="none" stroke="#e7a0b2" stroke-width="2" stroke-dasharray="3 13" opacity=".8"/>
+<path d="M175 165c26-32 61-43 90-28" fill="none" stroke="#df8da5" stroke-width="8" stroke-linecap="round"/><path d="M785 570c29 13 49 39 47 68" fill="none" stroke="#df8da5" stroke-width="8" stroke-linecap="round"/>
+<g fill="#d7869e"><circle cx="208" cy="506" r="6"/><circle cx="785" cy="240" r="5"/><circle cx="694" cy="666" r="7"/><path d="M780 120c18 28 19 41 0 53-19-12-18-25 0-53z"/></g>
+<ellipse cx="513" cy="600" rx="325" ry="82" fill="#321712" opacity=".19" filter="url(#shadow)"/>
+<ellipse cx="510" cy="548" rx="330" ry="140" fill="url(#plate)" stroke="#e4d0c6" stroke-width="5"/>
+<ellipse cx="510" cy="530" rx="274" ry="102" fill="#f4e9e1" stroke="#fffaf6" stroke-width="7"/>
+<!-- back brownie -->
+<g transform="translate(0 -5)">
+ <path d="M315 315 555 250 746 330 502 408Z" fill="url(#top)" stroke="#32140f" stroke-width="7" stroke-linejoin="round"/>
+ <path d="M315 315 502 408 502 548 315 454Z" fill="#4b2118" stroke="#32140f" stroke-width="7" stroke-linejoin="round"/>
+ <path d="M502 408 746 330 746 469 502 548Z" fill="url(#side)" stroke="#32140f" stroke-width="7" stroke-linejoin="round"/>
+ <path d="M336 322 555 265 722 333 503 394Z" fill="url(#shine)" opacity=".72"/>
+ <path d="M344 337 495 410 495 525 344 448Z" fill="#6a3020" opacity=".44"/>
+ <path d="M519 419 732 350 732 458 519 526Z" fill="#170b09" opacity=".25"/>
+ <g fill="#f4b28c" opacity=".8"><ellipse cx="409" cy="341" rx="13" ry="5" transform="rotate(21 409 341)"/><ellipse cx="551" cy="301" rx="10" ry="4"/><ellipse cx="633" cy="333" rx="14" ry="5" transform="rotate(15 633 333)"/><ellipse cx="462" cy="367" rx="8" ry="4"/></g>
+</g>
+<!-- front brownie with glossy top -->
+<g>
+ <path d="M238 410 488 333 706 426 452 516Z" fill="url(#top)" stroke="#2b100c" stroke-width="8" stroke-linejoin="round"/>
+ <path d="M238 410 452 516 452 644 238 537Z" fill="#5a261a" stroke="#2b100c" stroke-width="8" stroke-linejoin="round"/>
+ <path d="M452 516 706 426 706 556 452 644Z" fill="url(#side)" stroke="#2b100c" stroke-width="8" stroke-linejoin="round"/>
+ <path d="M257 416 488 349 683 430 453 495Z" fill="#8e452b" opacity=".72"/>
+ <path d="M264 430 449 521 449 622 264 531Z" fill="#6d3020" opacity=".38"/>
+ <path d="M468 526 691 448 691 547 468 624Z" fill="#160b08" opacity=".26"/>
+ <path d="M278 414c56-35 118-35 171-49 57-15 104-31 151-13 38 14 56 33 82 41" fill="none" stroke="#c8794c" stroke-width="10" stroke-linecap="round" opacity=".65"/>
+ <g fill="#f5bd96"><ellipse cx="342" cy="405" rx="12" ry="5" transform="rotate(-22 342 405)"/><ellipse cx="414" cy="389" rx="9" ry="4"/><ellipse cx="532" cy="369" rx="12" ry="5" transform="rotate(12 532 369)"/><ellipse cx="612" cy="409" rx="10" ry="4"/></g>
+ <g fill="#1f0d09" opacity=".75"><circle cx="289" cy="483" r="4"/><circle cx="323" cy="500" r="3"/><circle cx="371" cy="526" r="4"/><circle cx="410" cy="549" r="3"/><circle cx="487" cy="562" r="4"/><circle cx="560" cy="545" r="4"/><circle cx="632" cy="515" r="3"/><circle cx="677" cy="488" r="4"/></g>
+</g>
+<g fill="#9b563d" opacity=".8"><circle cx="267" cy="586" r="4"/><circle cx="733" cy="581" r="4"/><circle cx="356" cy="619" r="3"/><circle cx="654" cy="616" r="3"/></g>
+<path d="M168 616c36 20 62 25 94 18M750 177c26-11 51-13 76-3" fill="none" stroke="#d98da3" stroke-width="5" stroke-linecap="round"/>
+</svg>
